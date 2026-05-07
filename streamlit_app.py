@@ -51,7 +51,7 @@ if ingredients_list:
 import requests
 smoothiefroot_response = requests.get('https://smoothiefroot.com/api/fruit/orange') 
 print(smoothiefroot_response.status_code)
-print(smoothiefroot_response.json())
-#st.text(smoothiefroot_response.json())
+
+st.json(smoothiefroot_response)
     
  
