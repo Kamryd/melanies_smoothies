@@ -6,6 +6,7 @@
 # requirements.txt
 snowflake-snowpark-python
 streamlit 
+requests
 
 # [project]
 # name = "streamlit-app"
