@@ -52,6 +52,7 @@ import requests
 smoothiefroot_response = requests.get('https://smoothiefroot.com/api/fruit/orange') 
 print(smoothiefroot_response.status_code)
 
-st.json(smoothiefroot_response)
+st_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=True) 
+# st.json(smoothiefroot_response)
     
  
